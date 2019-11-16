@@ -9,8 +9,8 @@ foreach ($maps as $mk => $map) {
     }
 }
 $taglist = [
-    'demo' => [
-        'name' => '样例',
+    'defence' => [
+        'name' => 'defence',
         'type' => 'success'
     ]
 ];
