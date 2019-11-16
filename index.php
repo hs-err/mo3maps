@@ -13,7 +13,9 @@ $taglist=[
 ];
 ?>
 <html lang="en">
-<head><link rel="stylesheet" href="css/bootstrap.min.css">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8;"/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
