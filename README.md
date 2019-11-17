@@ -9,4 +9,5 @@ If you want to upload your maps to this repo,Pull request please~.~Thanks
 
 # Download
 Look here,yes,here.
-http://103.118.41.170/
+
+https://maps.hserr.xyz/
