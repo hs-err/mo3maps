@@ -82,8 +82,8 @@ foreach($maps as $map){
             <h3 class="card-header"><?php echo $info->name; ?></h3>
             <img style="height: 200px; width: 100%; display: block;" src="./maps/<?php echo urlencode($map); ?>/cover.png" alt="<?php echo $info->name; ?>">
             <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                <h5 class="card-title"><?php echo $info->tittle; ?></h5>
+                <h6 class="card-subtitle text-muted"><?php echo $info->describle; ?></h6>
                 <?php foreach($info->tags as $tag){
                     echo '<a href="index.php?tag='.urlencode($tag).'"><span class="badge badge-'.$taglist[$tag]['type'].'">'.$taglist[$tag]['name'].'</span></a>';
                 }?>
