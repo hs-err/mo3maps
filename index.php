@@ -9,7 +9,11 @@ $taglist=[
     'defence'=>[
         'name'=>'defence',
         'type'=>'success'
-    ]
+    ],
+	'task'=>[
+		'name'=>'task',
+		'type'=>'primary'
+	]
 ];
 ?>
 <html lang="en">

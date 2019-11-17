@@ -8,11 +8,15 @@ foreach ($maps as $mk => $map) {
         unset($maps[$mk]);
     }
 }
-$taglist = [
-    'defence' => [
-        'name' => 'defence',
-        'type' => 'success'
-    ]
+$taglist=[
+    'defence'=>[
+        'name'=>'defence',
+        'type'=>'success'
+    ],
+	'task'=>[
+		'name'=>'task',
+		'type'=>'primary'
+	]
 ];
 
 ?>
